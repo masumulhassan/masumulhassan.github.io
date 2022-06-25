@@ -1,0 +1,74 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+.bg-position{
+  position: absolute;
+  background-image: linear-gradient(120deg, #F4F1BB 0%, #ED6A5A 100%);
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  width: 35rem; 
+  height: 35rem;
+  animation: morph 15s linear infinite; 
+  transform-style: preserve-3d;
+  outline: 1px solid transparent;
+  will-change: border-radius;
+  z-index: -1;
+  /* filter: brightness(0.7); */
+  overflow: hidden;
+}
+.bg-position:before,
+.bg-position:after{
+ content: '';
+ width: 100%;
+ height: 100%;
+ display: block;
+ position: absolute;
+ left: 0; top: 0;
+ border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+ box-shadow: 5px 5px 89px rgba(0, 102, 255, 0.21);
+ will-change: border-radius, transform, opacity;
+ animation-delay: 200ms;
+ background-image: linear-gradient(120deg, #00ABE7 0%, #c979c9 100%);
+}
+
+.bg-position:before{
+ animation: morph 15s linear infinite;
+ opacity: .21;
+ animation-duration: 7.5s;
+}
+
+.bg-position:after{
+ animation: morph 15s linear infinite;
+ animation-delay: 400ms;
+ opacity: .89;
+ content: "";
+ line-height: 120px;
+ text-indent: -21px;
+}
+
+@keyframes morph{
+ 0%,100%{
+ border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+   transform: translate3d(0,0,0) rotateZ(0.01deg);
+ }
+ 34%{
+     border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+   transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+ }
+ 50%{
+   opacity: .89;
+   transform: translate3d(0,0,0) rotateZ(0.01deg);
+ }
+ 67%{
+   border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+   transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+ }
+}
+
+@keyframes fadeIn{
+ 100%{
+   transform: scale(1.03);
+   opacity: 0;
+ }
+}
