@@ -9,7 +9,6 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
-pygmentsUseClasses: true
 
 googleAnalytics: "G-LTR5L2PYKX"
 
@@ -43,17 +42,17 @@ languages:
           url: projects
     menu:
       main:
-        - identifier: archives
-          name: Archives
-          url: /archives/
-          weight: 2
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 4
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 3
         - identifier: tags
           name: Tags
           url: /tags/
-          weight: 3
-        - identifier: projects
-          name: Projects
-          url: /projects/
           weight: 4
         - identifier: about
           name: About
@@ -61,7 +60,6 @@ languages:
           weight: 5
 
 params:
-  gtm_id: ""
   env: production
   title: The 8-bit Brain
   description: Consume -> Process -> Store
@@ -114,3 +112,8 @@ params:
 
 taxonomies:
   tag: tags
+  
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
