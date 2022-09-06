@@ -18,7 +18,7 @@ The main purpose for this blog is to share/document some project/knowledge/idea 
 Based in Dhaka, Bangladesh. I am working as a Software Engineer on a day to day basis. I worked with different languages and frameworks. I am focusing on IT security.
 
 Technologies:
-* C# & .NET Core (Currently working with ❤️),
+* C# & .NET Core (Currently working with ❤ ),
 * Java & Grails/Struts,
 * PHP & CakePHP/Laravel,
 * A bit of JavaScript & React,
