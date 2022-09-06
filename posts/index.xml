@@ -22,14 +22,5 @@ In the next part, we will see how to reverse proxy the localhost:3000 to a domai
 Requirements Ubuntu: 20.04 NodeJS: 14.19.3 NPM: 6.14.17 Mongodb: 5.</description>
     </item>
     
-    <item>
-      <title>First post</title>
-      <link>https://masum.me/posts/first-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://masum.me/posts/first-post/</guid>
-      <description>This is a test post</description>
-    </item>
-    
   </channel>
 </rss>
