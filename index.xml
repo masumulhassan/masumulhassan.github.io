@@ -8,7 +8,20 @@
       <url>https://images.unsplash.com/photo-1510843572979-e4b9e790fdd7?auto=format&fit=crop&w=720&q=80</url>
       <link>https://images.unsplash.com/photo-1510843572979-e4b9e790fdd7?auto=format&fit=crop&w=720&q=80</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://masum.me/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 05 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://masum.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rocket.chat Setup on LXC Container</title>
+      <link>https://masum.me/posts/rocket-chat-setup-on-lxc/</link>
+      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://masum.me/posts/rocket-chat-setup-on-lxc/</guid>
+      <description>Rocket.chat Setup This a basic guide on how we can install Rocket.chat on Ubuntu LXC.
+This is a part 1 of 2 part series. In this part, we will look into how to install MongoDB, NodeJS &amp;amp; Rocket.Chat and also configure them.
+In the next part, we will see how to reverse proxy the localhost:3000 to a domain and install SSL certificate.
+Requirements Ubuntu: 20.04 NodeJS: 14.19.3 NPM: 6.14.17 Mongodb: 5.</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://masum.me/about/</link>
@@ -20,7 +33,7 @@ The name of the blog is The 8-bit Brain.
 The main purpose for this blog is to share/document some project/knowledge/idea related to different projects that I do.
 About Me Based in Dhaka, Bangladesh. I am working as a Software Engineer on a day to day basis. I worked with different languages and frameworks. I am focusing on IT security.
 Technologies:
-C# &amp;amp; .NET Core (Currently working with ❤️), Java &amp;amp; Grails/Struts, PHP &amp;amp; CakePHP/Laravel, A bit of JavaScript &amp;amp; React, A bit of other web technologies.</description>
+C# &amp;amp; .NET Core (Currently working with ❤ ), Java &amp;amp; Grails/Struts, PHP &amp;amp; CakePHP/Laravel, A bit of JavaScript &amp;amp; React, A bit of other web technologies.</description>
     </item>
     
     <item>

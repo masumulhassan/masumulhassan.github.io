@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on The 8-bit Brain</title>
-    <link>https://masum.me/posts/</link>
-    <description>Recent content in Posts on The 8-bit Brain</description>
+    <title>LXC on The 8-bit Brain</title>
+    <link>https://masum.me/tags/lxc/</link>
+    <description>Recent content in LXC on The 8-bit Brain</description>
     <image>
       <url>https://images.unsplash.com/photo-1510843572979-e4b9e790fdd7?auto=format&fit=crop&w=720&q=80</url>
       <link>https://images.unsplash.com/photo-1510843572979-e4b9e790fdd7?auto=format&fit=crop&w=720&q=80</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 05 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://masum.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://masum.me/tags/lxc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rocket.chat Setup on LXC Container</title>
       <link>https://masum.me/posts/rocket-chat-setup-on-lxc/</link>
@@ -20,15 +20,6 @@
 This is a part 1 of 2 part series. In this part, we will look into how to install MongoDB, NodeJS &amp;amp; Rocket.Chat and also configure them.
 In the next part, we will see how to reverse proxy the localhost:3000 to a domain and install SSL certificate.
 Requirements Ubuntu: 20.04 NodeJS: 14.19.3 NPM: 6.14.17 Mongodb: 5.</description>
-    </item>
-    
-    <item>
-      <title>First post</title>
-      <link>https://masum.me/posts/first-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://masum.me/posts/first-post/</guid>
-      <description>This is a test post</description>
     </item>
     
   </channel>

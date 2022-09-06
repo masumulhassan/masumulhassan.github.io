@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://masum.me/tags/blog/</loc>
+    <lastmod>2022-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://masum.me/tags/homelab/</loc>
+    <lastmod>2022-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://masum.me/tags/lxc/</loc>
+    <lastmod>2022-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://masum.me/posts/</loc>
+    <lastmod>2022-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://masum.me/tags/proxmox/</loc>
+    <lastmod>2022-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://masum.me/tags/rocket.chat/</loc>
+    <lastmod>2022-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://masum.me/posts/rocket-chat-setup-on-lxc/</loc>
+    <lastmod>2022-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://masum.me/tags/setup/</loc>
+    <lastmod>2022-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://masum.me/tags/</loc>
+    <lastmod>2022-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://masum.me/</loc>
+    <lastmod>2022-09-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://masum.me/about/</loc>
     <lastmod>2022-07-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,12 +39,6 @@
   </url><url>
     <loc>https://masum.me/posts/first-post/</loc>
   </url><url>
-    <loc>https://masum.me/posts/</loc>
-  </url><url>
     <loc>https://masum.me/projects/</loc>
-  </url><url>
-    <loc>https://masum.me/tags/</loc>
-  </url><url>
-    <loc>https://masum.me/</loc>
   </url>
 </urlset>
